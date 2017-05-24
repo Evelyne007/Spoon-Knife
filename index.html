@@ -1,20 +1,29 @@
-<!DOCTYPE html>
-
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-
-<img src="forkit.gif" id="octocat" alt="" />
-
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
-
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE sheisthecode [
+ <!ELEMENT sheisthecode (personne)*>
+ <!ELEMENT personne (nom?, prénom?, date_de_naissance?,genre?, ethnie?, email?, commune?, telephone?, nom_père? ,nom_mère?)>
+ <!ELEMENT nom (#PCDATA)>
+ <!ELEMENT prénom (#PCDATA)>
+ <!ELEMENT date_de_naissance (#PCDATA)>
+ <!ELEMENT genre (#PCDATA | masculin | féminin)*>
+<!ELEMENT ethnie (#PCDATA ) >
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT commune (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT nom_père (#PCDATA)>
+<!ELEMENT nom_mère (#PCDATA)>
+]>
+<sheisthecode>
+  <personne>
+    <nom>tano</nom>
+    <prénom>evelyne</prénom>
+    <date_de_naissance>24-06-1990</date_de_naissance>
+    <genre>feminin</genre>
+    <ethnie>baoule</ethnie>
+    <email>lesperlesdavila@gmail.com</email>
+    <commune>cocody</commune>
+    <telephone>47748771</telephone>
+    <nom_père>tano</nom_père>
+    <nom_mère>Diomande</nom_mère>
+  </personne>
+</sheisthecode>
